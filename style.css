@@ -1,0 +1,326 @@
+
+.container
+
+{
+
+width: 100%;
+background-color: rgb(26, 24, 24) 
+
+}
+.slogan
+{ 
+font-family: 'Goldman', cursive;
+
+}
+
+.sloganorange 
+
+{
+
+    font-family: 'Goldman', cursive;
+    color: orange;
+
+}
+header
+
+{
+
+    width: 100%; 
+    background-color: rgba(248, 250, 248, 0.966); 
+    display: flex; 
+    justify-content: center;
+     right: 50vh;
+}
+
+.header
+
+{
+ 
+    width: 80%;
+      
+}
+
+
+.droite
+
+{
+
+  display: flex; 
+  align-items: flex-end;
+  flex-direction: column; 
+  justify-content: flex-end;
+  height: 1vh; 
+  right: 20vh; 
+  
+   
+}
+
+.moncompte 
+
+{
+    display: flex; 
+    justify-content: flex-end;
+    width: 40%; 
+    border: 1px solid grey;
+    background-color: rgb(216, 212, 212);
+    margin: 0 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    
+     
+
+}
+
+
+nav ul 
+
+{
+ display: flex; 
+ width: 100%; 
+ 
+
+}
+
+nav ul li
+
+{
+list-style-type: none;
+margin: 0 5vh; 
+border: 0 1px solid grey;
+
+}
+
+a 
+
+{
+
+color: grey; 
+text-decoration: none;
+
+}
+
+
+
+main
+
+{
+
+    width: 80%; 
+    
+}
+ .container2
+
+ {
+
+    display: flex;
+    justify-content: center;
+ }
+.boxe
+
+{
+
+background-color: rgba(248, 250, 248, 0.966);
+border: 1px solid; 
+width: 80%; 
+
+}
+
+.promotion, .promotion2
+
+{
+
+    display: flex; 
+    justify-content: center; 
+
+}
+
+.gant1, .gant2, .gant3, .gant4
+
+{
+
+    text-align: center; 
+    margin: 5vh; 
+}
+
+.ganta, .gantb, .gantc, .gantd
+
+{
+
+    position: relative;
+    top: -10vh; 
+    text-align: center; 
+    font-family: 'Goldman', cursive;
+
+}
+
+.percentage1, .percentage2, .percentage3, .percentage4
+
+{
+
+    position: relative; 
+    left: 50%;
+    bottom: -6vh; 
+    font-family: 'Goldman', cursive;
+    color: orange;
+    border: 1px solid black;
+    background-color: rgb(26, 24, 24);
+    font-size: 1.8vw; 
+    padding: 10px; 
+}
+
+.prix
+
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.vente
+
+{
+
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    padding-left: 30px; 
+    padding-right: 30px; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.prixraye
+
+{
+ 
+    text-decoration: line-through; 
+    font-family: 'Goldman', cursive;
+
+}
+
+.orange
+
+{
+
+ font-family: 'Goldman', cursive;
+ color: orange;
+ font-size: 2.2vw; 
+ border: 0 0 1px 0 solid black; 
+
+}
+
+.ligne1
+
+{
+
+    display: flex; 
+    justify-content: space-around;
+}
+.ligne1 ul
+
+{
+    display: flex; 
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 50%;
+    height: 7vh;
+      background-color: rgba(248, 250, 248, 0.966);
+}
+
+.ligne1 ul li 
+
+{
+justify-content: space-around;
+   list-style-type: none; 
+   margin: 1vh; 
+
+}
+
+
+
+.lignehaute 
+
+{
+
+    background-color: rgb(26, 24, 24);
+    height: 7vh; 
+    width: 100%; 
+    position: fixed;
+    top: 45vh;
+
+}
+
+
+footer
+
+{
+    background-color: rgb(61, 60, 60);
+
+
+}
+.footer
+
+{
+    display:flex; 
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.images
+
+{
+   
+    display:flex; 
+    width: 60%; 
+    color: white
+}
+
+.liens
+
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* width: 40%; */
+ 
+
+
+}
+
+.icone
+
+{
+
+    margin: 0 5vh   
+
+}
+.texteenbas
+
+{
+   
+color: white;
+text-align: center;
+
+}
+
+
+/*****************************************************************************************************/
+
+
+@media screen and (max-width: 670px)
+
+{
+    .droite { display: none;}
+   
+}
+
+@media screen and (max-width: 470px) 
+
+{
+
+    
+  
+}
